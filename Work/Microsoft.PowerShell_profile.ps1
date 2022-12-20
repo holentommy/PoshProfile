@@ -15,12 +15,20 @@ ElseIf (-Not (((Get-Host).Version).Major -gt ([version]"7.3").Major )) {
     $env:PSModulePath += ";$($env:USERPROFILE)\Documents\WindowsPowerShell\Modules"
 
     # Forcing import of Posh Git
-    Import-Module -Name posh-git -MaximumVersion 1.0.0
+    If (-Not (Get-Command -Module posh-git)) {
+        Import-Module -Name posh-git -MaximumVersion 1.0.0
+    }
+    
     Set-Location -Path $WindowsOperationsProd
 
     # PS Readline configuration.
-    Set-PSReadLineOption -PredictionSource HistoryAndPlugin
-    Set-PSReadLineOption -PredictionViewStyle listview
+    If (-Not ((Get-PSReadLineOption).PredictionSource -eq 'HistoryAndPlugin')) {
+        Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+    }
+
+    If (-Not ((Get-PSReadLineOption).PredictionViewStyle -eq 'ListView')) {
+        Set-PSReadLineOption -PredictionViewStyle ListView
+    }
 
     # Setting up COS Operator function wrapper
     Function Connect-COSOperatorWindowsPowerShellWrapper {

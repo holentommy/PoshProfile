@@ -29,8 +29,13 @@ ElseIf (-Not (((Get-Host).Version).Major -gt ([version]"7.3").Major )) {
     }
     Import-Module -Name PSReadline -Force
     #>
-    Set-PSReadLineOption -PredictionSource HistoryAndPlugin
-    Set-PSReadLineOption -PredictionViewStyle listview
+    If (-Not ((Get-PSReadLineOption).PredictionSource -eq 'HistoryAndPlugin')) {
+        Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+    }
+
+    If (-Not ((Get-PSReadLineOption).PredictionViewStyle -eq 'ListView')) {
+        Set-PSReadLineOption -PredictionViewStyle ListView
+    }
 
     # Load posh-git
     <#
