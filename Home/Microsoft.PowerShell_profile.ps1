@@ -20,7 +20,8 @@ ElseIf (-Not (((Get-Host).Version).Major -gt ([version]"7.3").Major )) {
         winget install JanDeDobbeleer.OhMyPosh -s winget
     }
     #>
-    Invoke-Expression (&oh-my-posh init powershell)
+    oh-my-posh init pwsh --config "$($env:POSH_THEMES_PATH)\paradox.omp.json" |
+        Invoke-Expression
 
     # Configure PSReadLineOption.
     <#
