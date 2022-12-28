@@ -8,5 +8,320 @@ SoftwareBaseline: # Parameters for DSC Composite Configuration SoftwareBaseline
       Source: winget
       Home: true
       Work: true
+      Autoupdate: true
 
-      
+    - Name: Discord
+      Id: Discord.Discord
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Plexamp
+      Id: Plex.Plexamp
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Google Chrome
+      Id: Google.Chrome
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Mozilla Firefox
+      Id: Mozilla.Firefox
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Oh My Posh
+      Id: JanDeDobbeleer.OhMyPosh
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: PowerShell
+      Id: Microsoft.PowerShell
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Windows Terminal
+      Id: Microsoft.WindowsTerminal
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: GitHub CLI
+      Id: GitHub.cli
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Epic Games Launcher
+      Id: EpicGames.EpicGamesLauncher
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: VLC media player
+      Id: VideoLAN.VLC
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Paradox Launcher
+      Id: ParadoxInteractive.ParadoxLauncher
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Sonos S2 Controller
+      Id: Sonos.Controller
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: 7-Zip
+      Id: 7zip.7zip
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: PowerToys (Preview)
+      Id: Microsoft.PowerToys
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Microsoft Azure CLI
+      Id: Microsoft.AzureCLI
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: GOG GALAXY
+      Id: GOG.Galaxy
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: EA app
+      Id: ElectronicArts.EADesktop
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Plex Media Player
+      Id: Plex.PlexMediaPlayer
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: HandBrake
+      Id: HandBrake.HandBrake
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Obsidian
+      Id: Obsidian.Obsidian
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Private Internet Access
+      Id: PrivateInternetAccess.PrivateInternetAccess
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Starship
+      Id: Starship.Starship
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Ubisoft Connect
+      Id: Ubisoft.Connect
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: MakeMKV
+      Id: GuinpinSoft.MakeMKV
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: MKVToolNix
+      Id: MoritzBunkus.MKVToolNix
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Notion
+      Id: Notion.Notion
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: balenaEtcher
+      Id: Balena.Etcher
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Mailspring
+      Id: Foundry376.Mailspring
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: GitHub Desktop
+      Id: GitHub.GitHubDesktop
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: XSplit VCam
+      Id: XSplit.VCam
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: ScummVM
+      Id: ScummVM.ScummVM
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Mp3tag
+      Id: Mp3tag.Mp3tag
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Git
+      Id: Git.Git
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Docker Desktop
+      Id: Docker.DockerDesktop
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Speccy
+      Id: Piriform.Speccy
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Steam
+      Id: Valve.Steam
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: LastPass
+      Id: LogMeIn.LastPass
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Simplenote
+      Id: Automattic.Simplenote
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Lively Wallpaper
+      Id: rocksdanister.LivelyWallpaper
+      Source: winget
+      Home: true
+      Work: false
+      Autoupdate: true
+
+    - Name: Proxifier
+      Id: Initex.Proxifier
+      Source: winget
+      Home: false
+      Work: true
+      Autoupdate: false
+      Version: 3.42
+
+    - Name: WinMerge
+      Id: WinMerge.WinMerge
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Royal TS
+      Id: RoyalApps.RoyalTS
+      Source: winget
+      Home: false
+      Work: true
+      Autoupdate: true
+
+    - Name: Beamdog Client
+      Source: web
+      Home: true
+      Work: false
+      Autoupdate: false
+      Url: http://client.beamdog.com/files/BeamdogClientSetup2.1.11-ia32.exe
+
+    - Name: Synergy
+      Source: web
+      Home: true
+      Work: false
+      Autoupdate: false
+      Url: https://api2.prod.symless.com/aws-downloads/synergy/v1-core-standard/1.14.6-snapshot.88fdd263/synergy_1.14.6-snapshot.88fdd263_windows_x64.msi
+
+    - Name: Python
+      Source: choco
+      Home: true
+      Work: true
+      Autoupdate: false
+      Version: 3.11.0
