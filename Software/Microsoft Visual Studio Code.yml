@@ -1,0 +1,12 @@
+SoftwareBaseline: # Parameters for DSC Composite Configuration SoftwareBaseline
+  Sources:
+    - Name: winget
+  
+  Packages:
+    - Name: Microsoft Visual Studio Code
+      Id: Microsoft.VisualStudioCode
+      Source: winget
+      Home: true
+      Work: true
+
+      
