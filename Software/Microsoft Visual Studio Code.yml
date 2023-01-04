@@ -325,3 +325,10 @@ SoftwareBaseline: # Parameters for DSC Composite Configuration SoftwareBaseline
       Work: true
       Autoupdate: false
       Version: 3.11.0
+
+    - Name: Spotify
+      Id: Spotify.Spotify
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
