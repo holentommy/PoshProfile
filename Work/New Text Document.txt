@@ -1,0 +1,80 @@
+Git
+Google Chrome 104.0.5112.102_UPD_x64 MUL [1.0]
+Mozilla Firefox (x64 en-US)
+Notepad++ (64-bit x64)
+PowerShellGet NuGetProvider 2.8.5.208
+Microsoft 365 Apps for enterprise - en-us
+Microsoft OneDrive
+Snow Inventory Agent 6.9.0_x64 EN [1.0]
+Lenovo USB Audio
+Wacom Tablet
+WinMerge 2.16.24.0 x64
+XSplit VCam
+Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664
+Google Chrome
+EDM-OS-MdrnCustom_W10_X64_1.3_EN_[1.0]
+XSplit VCam
+Intel® PROSet/Wireless WiFi Software
+7-Zip 22.01 (x64 edition)
+Royal TS 6.01.51214.0
+Windows Subsystem for Linux WSLg Preview
+Microsoft Windows Desktop Runtime - 7.0.1 (x64)
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664
+Microsoft Windows Desktop Runtime - 3.1.32 (x64)
+TietoEVRY PowerPoint Wizard
+Microsoft .NET Host - 7.0.1 (x64)
+Microsoft .NET Host FX Resolver - 7.0.1 (x64)
+Microsoft Update Health Tools
+PowerShell 7-x64
+Webex
+Microsoft .NET Core Host - 3.1.32 (x64)
+Office 16 Click-to-Run Licensing Component
+Office 16 Click-to-Run Extensibility Component
+Snow Inventory Agent for Windows
+EDM-OS-MdrnBranding_W10_X64_1.5_EN_[1.0]
+PowerToys (Preview)
+Microsoft .NET Core Runtime - 3.1.32 (x64)
+Microsoft .NET Core Host FX Resolver - 3.1.32 (x64)
+GitHub CLI
+Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.34.31931
+Microsoft Visual C++ 2022 X64 Additional Runtime - 14.34.31931
+Microsoft .NET Runtime - 7.0.1 (x64)
+Windows Subsystem for Linux Update
+Lenovo USB Audio
+7-Zip 21.07 EN [1.0]
+KeePass Password Safe 2.52
+Microsoft Edge
+Microsoft Edge Update
+Microsoft Edge WebView2 Runtime
+PowerShellGet NuGetProvider 2.8.5.208
+Proxifier version 3.42
+ThinkPad Thunderbolt 3 Dock
+TietoEVRY Support and HUB shortcut  1.1 EN [1.0]
+Lenovo System Update
+Lenovo Vantage Service
+WalkMe Extension Uninstall 1.0 EN [1.0]
+WinSCP 5.21.6
+Intel(R) Wireless Bluetooth(R)
+Tietoevry Sans Fonts
+Thinkpad USB Ethernet Adapter Driver
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501
+TietoEVRY Image Bank
+Microsoft Windows Desktop Runtime - 3.1.32 (x64)
+Cisco Webex Meetings
+PowerToys (Preview) x64
+Aternity Agent
+Intel® PROSet/Wireless Software
+Microsoft Windows Desktop Runtime - 7.0.1 (x64)
+TietoEVRY Word Wizard
+Teams Machine-Wide Installer
+Templafy Desktop
+PowerShell 7.2.7.0-x64
+Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664
+Microsoft Azure CLI
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664
+VMware Remote Console
+Microsoft Intune Management Extension
+Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664
+Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.34.31931
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501
