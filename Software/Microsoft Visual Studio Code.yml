@@ -1,6 +1,8 @@
 SoftwareBaseline: # Parameters for DSC Composite Configuration SoftwareBaseline
   Sources:
     - Name: winget
+    - Name: choco
+    - Name: web
   
   Packages:
     - Name: Microsoft Visual Studio Code
@@ -320,6 +322,7 @@ SoftwareBaseline: # Parameters for DSC Composite Configuration SoftwareBaseline
       Url: https://api2.prod.symless.com/aws-downloads/synergy/v1-core-standard/1.14.6-snapshot.88fdd263/synergy_1.14.6-snapshot.88fdd263_windows_x64.msi
 
     - Name: Python
+      Keyword: python
       Source: choco
       Home: true
       Work: true
@@ -328,6 +331,48 @@ SoftwareBaseline: # Parameters for DSC Composite Configuration SoftwareBaseline
 
     - Name: Spotify
       Id: Spotify.Spotify
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Notepad++
+      Id: Notepad++.Notepad++
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: Wacom Tablet
+      Id: Wacom.WacomTabletDriver
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: KeePass
+      Id: DominikReichl.KeePass
+      Source: winget
+      Home: false
+      Work: true
+      Autoupdate: true
+
+    - Name: WinSCP
+      Id: WinSCP.WinSCP
+      Source: winget
+      Home: true
+      Work: true
+      Autoupdate: true
+
+    - Name: VMware Remote Console
+      Keyword: vmrc
+      Source: choco
+      Home: false
+      Work: true
+      Autoupdate: true
+
+    - Name: NuGet
+      Id: Microsoft.NuGet
       Source: winget
       Home: true
       Work: true
