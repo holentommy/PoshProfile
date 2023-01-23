@@ -286,12 +286,11 @@ SoftwareBaseline: # Parameters for DSC Composite Configuration SoftwareBaseline
       Autoupdate: true
 
     - Name: Proxifier
-      Id: Initex.Proxifier
-      Source: winget
+      Source: web
       Home: false
       Work: true
       Autoupdate: false
-      Version: 3.42
+      Url: https://www.proxifier.com/download/legacy/ProxifierSetup342.exe
 
     - Name: WinMerge
       Id: WinMerge.WinMerge
